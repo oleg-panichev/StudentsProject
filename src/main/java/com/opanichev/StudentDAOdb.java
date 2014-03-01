@@ -8,7 +8,7 @@ import java.sql.*;
  */
 public class StudentDAOdb implements StudentDAO {
     private Connection con;
-    private String addStudent="INSERT INTO students (id,sname,grade) VALUES (?,?,?)";
+    private String addStudent="INSERT INTO students (sname,grade) VALUES (?,?)";
     private String findStudent="SELECT id,sname,grade FROM student WHERE id=?";
     public StudentDAOdb(String uri) {
         try {
@@ -26,12 +26,12 @@ public class StudentDAOdb implements StudentDAO {
         }
     }
 
+    @Override
     public void addStudent(Student s) {
         try {
             PreparedStatement stmt=con.prepareStatement(addStudent);
-            stmt.setInt(1,s.getId());
-            stmt.setString(2,s.getName());
-            stmt.setFloat(3,s.getGrade());
+            stmt.setString(1,s.getName());
+            stmt.setFloat(2,s.getGrade());
             stmt.executeUpdate();
             stmt.close();
         } catch (SQLException e) {
@@ -39,6 +39,7 @@ public class StudentDAOdb implements StudentDAO {
         }
     }
 
+    @Override
     public Student findStudent(int id) {
         Student s=null;
         try {
@@ -46,7 +47,7 @@ public class StudentDAOdb implements StudentDAO {
             stmt.setInt(1,id);
             ResultSet rs=stmt.executeQuery();
             if(rs.next()) {
-                s=new Student(rs.getInt("id"),rs.getString("sname"),rs.getFloat("grade"));
+                s=new Student(rs.getString("sname"),rs.getFloat("grade"));
             }
         } catch (SQLException e) {
             e.printStackTrace();

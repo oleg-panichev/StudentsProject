@@ -5,7 +5,7 @@
       <driver-ref>derby.embedded</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
-      <jdbc-url>jdbc:derby:$PROJECT_DIR$/../studentDb</jdbc-url>
+      <jdbc-url>jdbc:derby:$PROJECT_DIR$/studentDb</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="NewPersistenceUnit" uuid="299e918e-19f5-46c3-874e-4a58802e40d1">
