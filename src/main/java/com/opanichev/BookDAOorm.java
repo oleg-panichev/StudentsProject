@@ -7,36 +7,36 @@ import javax.persistence.Persistence;
 /**
  * Created by Oleg on 01.03.14.
  */
-public class StudentDAOorm implements StudentDAO {
-    private static final String UNIT_NAME="Student";
+public class BookDAOorm implements BookDAO {
+    private static final String UNIT_NAME="Book";
     private static EntityManagerFactory factory;
     private EntityManager em;
 
-    public StudentDAOorm() {
+    public BookDAOorm() {
         factory= Persistence.createEntityManagerFactory(UNIT_NAME);
         em=factory.createEntityManager();
     }
 
-    public StudentDAOorm(EntityManager em) {
-        this.em=em;
+    public BookDAOorm(EntityManager em) {
+        this.em = em;
     }
 
     @Override
-    public void addStudent(Student s) {
+    public void addBook(Book b) {
         em.getTransaction().begin();
-        em.persist(s);
+        em.persist(b);
         em.getTransaction().commit();
     }
 
     @Override
-    public Student findStudent(int id) {
-        return em.find(Student.class,id);
+    public Book findBook(int id) {
+        return em.find(Book.class,id);
     }
 
     @Override
-    public void removeStudent(Student s) {
+    public void removeBook(Book b) {
         em.getTransaction().begin();
-        em.remove(s);
+        em.remove(b);
         em.getTransaction().commit();
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2283367922">
+  <component name="DataSourceManagerImpl" format="xml" hash="2782130634">
     <data-source source="LOCAL" name="studentDb" uuid="4c37d052-42dd-4dab-9d44-7d5b7df0e8d0">
       <driver-ref>derby.embedded</driver-ref>
       <synchronize>true</synchronize>
@@ -15,6 +15,12 @@
           <url>file://C:\Users\Oleg\.m2\repository\org\eclipse\persistence\eclipselink\2.5.0\eclipselink-2.5.0.jar</url>
         </library>
       </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Student" uuid="adb80fe4-6623-45fb-8d28-a7d5fd0b3d8e">
+      <driver-ref>derby.embedded</driver-ref>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby:D:\Dropbox\Java\StudentsProject\studentDb</jdbc-url>
+      <libraries />
     </data-source>
   </component>
 </project>

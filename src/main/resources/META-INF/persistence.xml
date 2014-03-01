@@ -4,10 +4,23 @@
     <persistence-unit name="Student" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <class>com.opanichev.Student</class>
+        <class>com.opanichev.Book</class>
         <properties>
             <property name="eclipselink.jdbc.url" value="jdbc:derby:D:\Dropbox\Java\StudentsProject\studentDb"/>
             <property name="eclipselink.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:detby:CM;create=true"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:derby:CM;create=true"/>
+            <!--<property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>-->
+            <property name="eclipselink.ddl-generation.output-mode" value="database" />
+        </properties>
+    </persistence-unit>
+
+    <persistence-unit name="Book" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <class>com.opanichev.Student</class>
+        <properties>
+            <property name="eclipselink.jdbc.url" value="jdbc:derby:D:\Dropbox\Java\StudentsProject\studentDb"/>
+            <property name="eclipselink.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:derby:CM;create=true"/>
             <property name="eclipselink.ddl-generation.output-mode" value="database" />
         </properties>
     </persistence-unit>

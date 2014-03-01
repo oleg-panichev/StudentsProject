@@ -1,6 +1,9 @@
 package com.opanichev;
 
 import javax.persistence.*;
+import javax.persistence.metamodel.CollectionAttribute;
+import java.util.Collection;
+
 /**
  * Created by Oleg on 01.03.14.
  */
@@ -11,6 +14,8 @@ public class Student {
     private int id;
     private String sname;
     private float grade;
+    @OneToMany(mappedBy = "owner")
+    private Collection<Book> books;
 
     public Student() {}
 
