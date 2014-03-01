@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="207774243">
+  <component name="DataSourceManagerImpl" format="xml" hash="2283367922">
     <data-source source="LOCAL" name="studentDb" uuid="4c37d052-42dd-4dab-9d44-7d5b7df0e8d0">
       <driver-ref>derby.embedded</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
       <jdbc-url>jdbc:derby:$PROJECT_DIR$/../studentDb</jdbc-url>
       <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="NewPersistenceUnit" uuid="299e918e-19f5-46c3-874e-4a58802e40d1">
+      <jdbc-url>jdbc:derby:</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://C:\Users\Oleg\.m2\repository\org\eclipse\persistence\eclipselink\2.5.0\eclipselink-2.5.0.jar</url>
+        </library>
+      </libraries>
     </data-source>
   </component>
 </project>

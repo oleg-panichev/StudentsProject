@@ -1,18 +1,21 @@
 package com.opanichev;
 
+import javax.persistence.*;
 /**
  * Created by Oleg on 01.03.14.
  */
-@javax.persistence.Entity
+@Entity
 public class Student {
-    @id
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String name;
+    private String sname;
     private float grade;
 
-    public Student(int id, String name, float grade) {
-        this.id = id;
-        this.name = name;
+    public Student() {}
+
+    public Student(String name, float grade) {
+        this.sname = name;
         this.grade = grade;
     }
 
@@ -21,7 +24,7 @@ public class Student {
     }
 
     public String getName() {
-        return name;
+        return sname;
     }
 
     public float getGrade() {
@@ -32,8 +35,8 @@ public class Student {
         this.id = id;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String sname) {
+        this.sname = sname;
     }
 
     public void setGrade(float grade) {
@@ -42,6 +45,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return (id+", "+name+", "+grade);
+        return (id+", "+sname+", "+grade);
     }
 }
