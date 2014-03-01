@@ -2,13 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="098003fa-6447-48a9-ae73-161692e5f984" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOorm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/opanichev/Starter.java" afterPath="$PROJECT_DIR$/src/main/java/com/opanichev/Starter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c10.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c101.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c111.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c121.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c130.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c141.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c150.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c161.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c171.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c180.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c191.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c1a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c1b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c1c0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c1d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c1e0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c1f1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c20.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c200.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c211.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c221.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c230.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c241.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c251.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c260.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c271.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c281.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c290.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c2a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c2b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c2c1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c2d0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c2e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c2f0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c300.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c31.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c311.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c321.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c331.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c340.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c351.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c361.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c371.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c380.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c391.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c3a1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c3b1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c3c0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c3d1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c3e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c3f1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c400.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c41.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c411.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c421.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c430.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c441.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c451.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c461.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c470.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c481.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c4d0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c4e1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c51.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c60.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c71.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c81.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/c90.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/ca1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/cb1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/cc0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/cd1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/ce1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/cf0.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/log/log.ctrl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/log/log1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/log/logmirror.ctrl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/log/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/seg0/README_DO_NOT_TOUCH_FILES.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/db.lck" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/studentDb/service.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOdb.java" afterPath="$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOdb.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StudentsProject.iml" afterPath="$PROJECT_DIR$/StudentsProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOorm.java" afterPath="$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOorm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StudentsProject.iws" />
@@ -103,19 +181,20 @@
       <file leaf-file-name="StudentDAOdb.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOdb.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="23" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1071">
+            <state line="63" column="33" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0" vertical-offset="920" max-vertical-offset="1292">
               <folding>
-                <marker date="1393680338681" expanded="true" signature="214:261" placeholder="INSERT INTO ..." />
-                <marker date="1393680338681" expanded="true" signature="296:341" placeholder="SELECT id,sn..student..." />
+                <marker date="1393681768618" expanded="true" signature="220:267" placeholder="INSERT INTO ..." />
+                <marker date="1393681768618" expanded="true" signature="308:353" placeholder="SELECT id,sn..student..." />
+                <marker date="1393681768618" expanded="true" signature="396:426" placeholder="DELETE FROM ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentDAOorm.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StudentDAOorm.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOorm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="533" selection-end="533" vertical-scroll-proportion="0.47494033" vertical-offset="124" max-vertical-offset="629">
+            <state line="36" column="5" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0" vertical-offset="325" max-vertical-offset="748">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,16 +205,16 @@
       <file leaf-file-name="StudentDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="39" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="8" column="41" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Starter.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Starter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opanichev/Starter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="459">
+            <state line="18" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.7607527" vertical-offset="23" max-vertical-offset="459">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,15 +244,15 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAO.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/opanichev/Student.java" />
         <option value="db-console:/636b21cd/4c37d052-42dd-4dab-9d44-7d5b7df0e8d0/" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOdb.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOorm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opanichev/Starter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOorm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOdb.java" />
       </list>
     </option>
   </component>
@@ -607,24 +686,28 @@
       <created>1393666355970</created>
       <updated>1393666355970</updated>
       <workItem from="1393666359460" duration="12405000" />
-      <workItem from="1393679717426" duration="1146000" />
+      <workItem from="1393679717426" duration="2599000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1393679372064</created>
       <updated>1393679372064</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit&#10;">
+      <created>1393680899190</created>
+      <updated>1393680899190</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13551000" />
+    <option name="totallyTimeSpent" value="15004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -645,7 +728,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19939578" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2520064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2520064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23595506" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -702,8 +785,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="16" selection-start="1365" selection-end="1365" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1071">
           <folding>
-            <marker date="1393680338681" expanded="true" signature="214:261" placeholder="INSERT INTO ..." />
-            <marker date="1393680338681" expanded="true" signature="296:341" placeholder="SELECT id,sn..student..." />
+            <marker date="1393681768618" expanded="true" signature="220:267" placeholder="INSERT INTO ..." />
+            <marker date="1393681768618" expanded="true" signature="308:353" placeholder="SELECT id,sn..student..." />
+            <marker date="1393681768618" expanded="true" signature="396:426" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -762,23 +846,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOdb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1071">
-          <folding>
-            <marker date="1393680338681" expanded="true" signature="214:261" placeholder="INSERT INTO ..." />
-            <marker date="1393680338681" expanded="true" signature="296:341" placeholder="SELECT id,sn..student..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="100" selection-start="430" selection-end="430" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
@@ -786,18 +853,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opanichev/Starter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="459">
+        <state line="8" column="41" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOorm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="5" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0" vertical-offset="325" max-vertical-offset="748">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOorm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opanichev/StudentDAOdb.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="533" selection-end="533" vertical-scroll-proportion="0.47494033" vertical-offset="124" max-vertical-offset="629">
+        <state line="63" column="33" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0" vertical-offset="920" max-vertical-offset="1292">
+          <folding>
+            <marker date="1393681768618" expanded="true" signature="220:267" placeholder="INSERT INTO ..." />
+            <marker date="1393681768618" expanded="true" signature="308:353" placeholder="SELECT id,sn..student..." />
+            <marker date="1393681768618" expanded="true" signature="396:426" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opanichev/Starter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.7607527" vertical-offset="23" max-vertical-offset="459">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -6,4 +6,5 @@ package com.opanichev;
 public interface StudentDAO {
     public void addStudent(Student s);
     public Student findStudent(int id);
+    public void removeStudent(Student s);
 }

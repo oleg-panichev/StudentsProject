@@ -28,4 +28,11 @@ public class StudentDAOorm implements StudentDAO {
     public Student findStudent(int id) {
         return em.find(Student.class,id);
     }
+
+    @Override
+    public void removeStudent(Student s) {
+        em.getTransaction().begin();
+        em.remove(s);
+        em.getTransaction().commit();
+    }
 }

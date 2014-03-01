@@ -8,8 +8,9 @@ import java.sql.*;
  */
 public class StudentDAOdb implements StudentDAO {
     private Connection con;
-    private String addStudent="INSERT INTO students (sname,grade) VALUES (?,?)";
-    private String findStudent="SELECT id,sname,grade FROM student WHERE id=?";
+    private final String addStudent="INSERT INTO students (sname,grade) VALUES (?,?)";
+    private final String findStudent="SELECT id,sname,grade FROM student WHERE id=?";
+    private final String removeStudent="DELETE FROM student WHERE id=?";
     public StudentDAOdb(String uri) {
         try {
             this.con = DriverManager.getConnection(uri);
@@ -53,6 +54,18 @@ public class StudentDAOdb implements StudentDAO {
             e.printStackTrace();
         }
         return s;
+    }
+
+    @Override
+    public void removeStudent(Student s) {
+        try {
+            PreparedStatement stmt=con.prepareStatement(removeStudent);
+            stmt.setInt(1,s.getId());
+            stmt.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
     }
 
 }
