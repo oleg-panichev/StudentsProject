@@ -34,6 +34,13 @@ public class StudentDAOorm implements StudentDAO {
     }
 
     @Override
+    public void updateStudent(Student s) {
+        em.getTransaction().begin();
+        em.merge(s);
+        em.getTransaction().commit();
+    }
+
+    @Override
     public void removeStudent(Student s) {
         em.getTransaction().begin();
         em.remove(s);

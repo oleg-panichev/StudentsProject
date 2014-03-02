@@ -57,6 +57,11 @@ public class StudentDAOdb implements StudentDAO {
     }
 
     @Override
+    public void updateStudent(Student s) {
+
+    }
+
+    @Override
     public void removeStudent(Student s) {
         try {
             PreparedStatement stmt=con.prepareStatement(removeStudent);
