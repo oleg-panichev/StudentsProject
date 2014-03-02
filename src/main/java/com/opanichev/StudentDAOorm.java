@@ -13,8 +13,9 @@ public class StudentDAOorm implements StudentDAO {
     private EntityManager em;
 
     public StudentDAOorm() {
-        factory= Persistence.createEntityManagerFactory(UNIT_NAME);
-        em=factory.createEntityManager();
+        //factory= Persistence.createEntityManagerFactory(UNIT_NAME);
+        //em=factory.createEntityManager();
+        this.em=EntityManagerSingleton.getEMs();
     }
 
     public StudentDAOorm(EntityManager em) {
@@ -30,6 +31,8 @@ public class StudentDAOorm implements StudentDAO {
 
     @Override
     public Student findStudent(int id) {
+        if (em==null)
+            System.out.println("em==null");
         return em.find(Student.class,id);
     }
 

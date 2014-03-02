@@ -6,19 +6,19 @@ import javax.persistence.EntityManager;
  * Created by Oleg on 02.03.14.
  */
 public class DerbyDAOFactory extends DAOFactory {
-    EntityManager em;
+    private EntityManager em;
 
     public DerbyDAOFactory() {
-        em=EntityManagerSingleton.getEMs();
+        this.em=EntityManagerSingleton.getEMs();
     }
 
     @Override
     public StudentDAO getStudentDAO() {
-        return new StudentDAOorm(em);
+        return new StudentDAOorm();
     }
 
     @Override
     public BookDAO getBookDAO() {
-        return new BookDAOorm(em);
+        return new BookDAOorm();
     }
 }

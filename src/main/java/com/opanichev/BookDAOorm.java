@@ -13,8 +13,9 @@ public class BookDAOorm implements BookDAO {
     private EntityManager em;
 
     public BookDAOorm() {
-        factory= Persistence.createEntityManagerFactory(UNIT_NAME);
-        em=factory.createEntityManager();
+        //factory= Persistence.createEntityManagerFactory(UNIT_NAME);
+        //em=factory.createEntityManager();
+        this.em=EntityManagerSingleton.getEMs();
     }
 
     public BookDAOorm(EntityManager em) {

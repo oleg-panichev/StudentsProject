@@ -68,8 +68,20 @@ public class Starter {
 //        } else {
 //            System.out.println("listB==null");
 //        }
+        DAOFactory daof=DAOFactory.getDAOFactory(1);
+        StudentDAO sdao=daof.getStudentDAO();
+        Student s=sdao.findStudent(1);
+        if(s!=null)
+            System.out.println(s.toString());
+        else
+            System.out.println("No students found!");
 
-        StudentDAO sdao=DAOFactory.getDAOFactory(1).getStudentDAO();
-        System.out.println(sdao.findStudent(1));
+        s=sdao.findStudent(2);
+        if(s!=null)
+            System.out.println(s.toString());
+        else
+            System.out.println("No students found!");
+
+        sdao.addStudent(new Student("Grisha",4));
     }
 }
