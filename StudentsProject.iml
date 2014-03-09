@@ -9,6 +9,7 @@
           <factory-entry name="&lt;anonymous&gt;persistence.xml@1568" value="e4593e61-c58c-4bdc-9759-db3775fd1362" />
           <factory-entry name="Book" value="de86558c-f483-4352-8fb2-01005611bd2f" />
           <factory-entry name="NewPersistenceUnit" value="299e918e-19f5-46c3-874e-4a58802e40d1" />
+          <factory-entry name="PUnit2" />
           <factory-entry name="Student" value="adb80fe4-6623-45fb-8d28-a7d5fd0b3d8e" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
